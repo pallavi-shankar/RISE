@@ -1,0 +1,19 @@
+# Ignore environment and sensitive files
+includes/config.php
+
+# Ignore system & temporary files
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore vendor and dependency folders
+/vendor/
+/node_modules/
+
+# Ignore build cache (if using gulp or npm)
+dist/
+.cache/
+
+# Ignore IDE/editor specific files
+.idea/
+.vscode/
